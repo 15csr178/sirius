@@ -7,59 +7,61 @@
     <body>
         <!--<center>-->
         <form action="" class="add_new_movie" id="add_new_movie">
-            <div>
+            <div class="form">
                 <header>
                     <img class="headerlogo" src="images/projector-logo.png" alt="projector-logo">
                 </header>
-
+                
+                <menu type="toolbar">Add Movie</menu>
                 <menu type="toolbar">HOME</menu>
+                
 
-            </div>
+           
            
 
 
 
-            <h2 class="heading">Add a new Movie</h2>
+                <h2 class="heading">Add a new Movie</h2>
+                
+                <label for="moviename">Movie Name</label>
+                <input type="text" name="moviename" >
+                
+                <label for="releaseyear">Release Year</label> 
+                <input type="text" name="releaseyear" >
+                <div class="combo">
+                    <label for="language">Language</label>
+                    <select name="language" id="language" >
+                        <option value=" ">--</option>
+                        <option value="Tamil">Tamil</option>
+                        <option value="English">English</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+                </div>
+                <div class="combo">
+                    <label for="ratings">Rating</label>
+                    <select name="ratings" id="ratings" >
+                        <option value=" ">--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <label for="thumbnailurl">Thumbnail URL</label>
+                <input type="url" name="thumbnailurl" >
             
-            <label for="moviename">Movie Name</label>
-            <input type="text" name="moviename" >
-            
-            <label for="releaseyear">Release Year</label> 
-            <input type="text" name="releaseyear" >
-            <div class="combo">
-                <label for="language">Language</label>
-                <select name="language" id="language" >
-                    <option value=" ">--</option>
-                    <option value="Tamil">Tamil</option>
-                    <option value="English">English</option>
-                    <option value="Hindi">Hindi</option>
-                </select>
-            </div>
-            <div class="combo">
-                <label for="ratings">Rating</label>
-                <select name="ratings" id="ratings" >
-                    <option value=" ">--</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
-            </div>
-            <label for="thumbnailurl">Thumbnail URL</label>
-            <input type="url" name="thumbnailurl" >
-           
-            <label for="plot">Plot</label>
-            <textarea name="plot" id="plot" cols="30" rows="5"></textarea>
-            
-            <label for="posterurl">Poster URL</label>
-            <input type="url" name="posterurl" >
-            
-            <label for="cast">Cast</label>
-            <textarea name="cast" id="cast" cols="30" rows="5"></textarea>
-            
-            <button  type="submit">Submit</button>
-
+                <label for="plot">Plot</label>
+                <textarea name="plot" id="plot" cols="30" rows="5"></textarea>
+                
+                <label for="posterurl">Poster URL</label>
+                <input type="url" name="posterurl" >
+                
+                <label for="cast">Cast</label>
+                <textarea name="cast" id="cast" cols="30" rows="5"></textarea>
+                
+                <button  type="submit">Submit</button>
+        </div>
 
             <footer>
                     <img class="facebook" src="images/facebook.png" alt="facebook">
