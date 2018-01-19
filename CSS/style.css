@@ -1,0 +1,88 @@
+body{
+    
+    background-color: rgb(21, 16, 37);
+    color: aliceblue;
+    border-block-end-color: rgb(52, 22, 80);
+    
+}
+
+.add_new_movie
+{
+    width: 500px;
+    margin: 20px auto;
+}
+
+
+
+.add_new_movie input,.add_new_movie select,
+.add_new_movie textarea
+{
+
+    margin: 10px auto;
+    width:100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+
+.add_new_movie h2{
+    padding-top: 5rem;
+   text-align: center;
+   color: rgb(236, 236, 253);
+}
+
+.add_new_movie label
+{
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+}
+
+.add_new_movie button
+{
+    background-color: orange;
+    margin-left:48%;
+    margin-top: 1.2rem;
+}
+
+.add_new_movie .combo
+{
+    display:inline-block;
+    width: 49.5%;
+}
+
+.add_new_movie footer
+{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    background-color: black;
+}
+
+
+.facebook,.twitter,.instagram
+{
+    width: 5%;
+    height: 5%;
+    margin-bottom: 0.5rem;
+}
+
+.footerlogo
+{
+    width: 30%;
+    height: 30%;
+    float: right;
+    padding-right: 2rem;
+}
+
+.headerlogo
+{
+    padding-top: 2rem;
+    width: 30%;
+    height: 30%;
+    float: left;
+}
+
+.add_new_movie
+{
+    padding-top: 0.3rem;
+}
